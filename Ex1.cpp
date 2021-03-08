@@ -12,8 +12,8 @@ bool isPrime(int n)
 	return true;
 }
 
-int main() {
-	
+int main() 
+{
 	MPI_Init(NULL, NULL);
 	int n = 100, rank, size;
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
